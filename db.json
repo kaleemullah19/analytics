@@ -1,9 +1,77 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+{ 
+
+    "userQueries": { 
+
+        "displayLabel": "User Queries", 
+
+        "queryList": [{ 
+
+                "queryID": 1, 
+
+                "queryName": "User Query 1" 
+
+            }, 
+
+            { 
+
+                "queryID": 2, 
+
+                "queryName": "User Query 2" 
+
+            } 
+
+        ] 
+
+    }, 
+
+    "workgroupQueries": { 
+
+        "displayLabel": "Workgroup Queries", 
+
+        "queryList": [{ 
+
+                "queryID": 1, 
+
+                "queryName": "Workgroup Query 1" 
+
+            }, 
+
+            { 
+
+                "queryID": 2, 
+
+                "queryName": "Workgroup Query 2" 
+
+            } 
+
+        ] 
+
+    }, 
+
+    "projectQueries": { 
+
+        "displayLabel": "Project Queries", 
+
+        "queryList": [{ 
+
+                "queryID": 1, 
+
+                "queryName": "Project Query 1" 
+
+            }, 
+
+            { 
+
+                "queryID": 2, 
+
+                "queryName": "Project Query 2" 
+
+            } 
+
+        ] 
+
+    } 
+
+  
+
+} 
